@@ -1,5 +1,7 @@
 # DoctrineEnumTypeBundle
 
+Fork for Symfony 6.4  
+
 Configures [Doctrine Enum Type](https://github.com/acelaya/doctrine-enum-type) via Symfony config file.
 
 ## Installation
