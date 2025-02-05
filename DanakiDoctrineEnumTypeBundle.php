@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class DanakiDoctrineEnumTypeBundle extends Bundle
 {
-    public function boot()
+    public function boot(): void
     {
 
         foreach ($this->container->getParameter('danaki_doctrine_enum_type.types') as $typeName => $enumClass) {
