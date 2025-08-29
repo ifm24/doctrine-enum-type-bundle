@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
 
 class DanakiDoctrineEnumTypeExtension extends ConfigurableExtension
 {
-    protected function loadInternal(array $config, ContainerBuilder $container)
+    protected function loadInternal(array $config, ContainerBuilder $container): void
     {
         $container->setParameter('danaki_doctrine_enum_type.types', $config['types']);
     }
